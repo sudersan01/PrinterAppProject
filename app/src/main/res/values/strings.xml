@@ -1,3 +1,57 @@
 <resources>
-    <string name="app_name">PrinterAppProject</string>
+    <string name="app_name"><font color="#374A60">ThirdEye</font></string>
+    <string name="create">Create New Folder</string>
+    <string name="Import"> Import</string>
+    <string name="share"> Share</string>
+    <string name="settings"> Settings</string>
+    <string name="profile">Profile</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="spinner">spinner</string>
+    <string-array name="Profession">
+        <item>Please select the Profession</item>
+        <item>Student</item>
+        <item>Prof</item>
+        <item>staff</item>
+        <item>research student</item>
+    </string-array>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string-array name="Name">
+        <item>3D Printer A</item>
+        <item>3D Printer B</item>
+        <item>3D Printer C</item>
+        <item>3D Printer D</item>
+        <item>3D Printer E</item>
+    </string-array>
+    <string-array name="Size">
+        <item>Bed size and shape A</item>
+        <item>Bed size and shape B</item>
+        <item>Bed size and shape C</item>
+        <item>Bed size and shape D</item>
+        <item>Bed size and shape E</item>
+    </string-array>
+    <string-array name="Filament">
+        <item>Filament A</item>
+        <item>Filament B</item>
+        <item>Filament C</item>
+        <item>Filament D</item>
+        <item>Filament E</item>
+    </string-array>
+
+    <string name="nameSpin">Name</string>
+    <string name="bedSizeShapeSpin" translatable="false">Bed Size &amp; Shape</string>
+    <string name="filamentSpin">Filament Details</string>
+    <string name="bedCenterSwitch">Bed Center is Zero</string>
+    <string name="heaterBedSwitch">Heater Bed</string>
+    <string name="endCmnd">End Commands</string>
+    <string name="startCmnd">Start Commands</string>
+    <string name="title_activity_main3">Main3</string>
+    <string name="camera">Camera</string>
+    <string name="history">History</string>
 </resources>

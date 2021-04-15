@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile">
+
+
+    <TableLayout
+        android:layout_width="320dp"
+        android:layout_height="616dp"
+        app:layout_anchorGravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.408"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/nameSpin"
+            android:textAlignment="center"
+            android:textColor="@color/dark_grey"
+            android:textSize="@dimen/fab_margin" />
+
+        <Spinner
+            android:id="@+id/nameSpin"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/myrect"
+            android:clipToPadding="false"
+            android:paddingTop="90dp"
+            android:rotationX="0"
+            app:layout_constrainedHeight="true"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="40dp" />
+
+        <View
+            android:id="@+id/divider1"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteY="333dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/bedSizeShapeSpin"
+            android:textAlignment="center"
+            android:textColor="@color/dark_grey"
+            android:textSize="@dimen/fab_margin" />
+
+        <Spinner
+            android:id="@+id/sizeSpin"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/myrect"
+            android:clickable="true"
+            android:clipToPadding="false"
+            android:focusable="true"
+            android:paddingTop="90dp"
+            android:rotationX="0"
+            app:layout_constrainedHeight="true"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="40dp" />
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteY="333dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/filamentSpin"
+            android:textAlignment="center"
+            android:textColor="@color/dark_grey"
+            android:textSize="@dimen/fab_margin" />
+
+        <Spinner
+            android:id="@+id/filamentSpin"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/myrect"
+            android:clickable="true"
+            android:clipToPadding="false"
+            android:focusable="true"
+            android:paddingTop="90dp"
+            android:rotationX="0"
+            app:layout_constrainedHeight="true"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="40dp" />
+
+        <View
+            android:id="@+id/divider3"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteY="333dp" />
+
+        <FrameLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/myrect"
+                android:gravity="start"
+                android:paddingLeft="50dp"
+                android:paddingTop="10dp"
+                android:text="@string/bedCenterSwitch"
+                android:textAlignment="textStart"
+                android:textColor="@color/dark_grey"
+                android:textSize="@dimen/fab_margin" />
+
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+        </FrameLayout>
+
+        <View
+            android:id="@+id/divider4"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteY="333dp" />
+
+        <FrameLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/myrect"
+                android:gravity="start"
+                android:paddingLeft="50dp"
+                android:paddingTop="10dp"
+                android:text="@string/heaterBedSwitch"
+                android:textAlignment="textStart"
+                android:textColor="@color/dark_grey"
+                android:textSize="@dimen/fab_margin" />
+
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+        </FrameLayout>
+
+        <View
+            android:id="@+id/divider5"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteY="333dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/startCmnd"
+            android:textAlignment="center"
+            android:textColor="@color/dark_grey"
+            android:textSize="@dimen/fab_margin" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/myrect"
+            android:gravity="start"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="(command)"
+            android:textAlignment="textStart"
+            android:textColor="@color/dark_grey"
+            android:textSize="@dimen/fab_margin" />
+
+        <View
+            android:id="@+id/divider6"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteY="333dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/endCmnd"
+            android:textAlignment="center"
+            android:textColor="@color/dark_grey"
+            android:textSize="@dimen/fab_margin" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/myrect"
+            android:gravity="start"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="(command)"
+            android:textAlignment="textStart"
+            android:textColor="@color/dark_grey"
+            android:textSize="@dimen/fab_margin" />
+
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

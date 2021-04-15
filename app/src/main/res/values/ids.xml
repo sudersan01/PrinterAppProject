@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="nameSpin" type="id"/>
+    <item name="sizeSpin" type="id"/>
+    <item name="filamentSpin" type="id"/>
+    <item name="divider1" type="id"/>
+    <item name="divider2" type="id"/>
+    <item name="divider3" type="id"/>
+    <item name="divider5" type="id"/>
+    <item name="divider6" type="id"/>
+    <item name="constraintLayout" type="id"/>
+</resources>
